@@ -57,5 +57,8 @@ ax.text(0, 0.4, '68%', fontsize=12, color='w', va='center', ha='center')
 
 fig.subplots_adjust(bottom=0.30)
 
+plt.text(0.6,1,'Braulio Sanchez Ibanez')
+plt.text(0.6,0.9,'bsibanez@hotmail.com')
+
 # ax.tick_params(axis='x', which='major', labelsize=10, top='off')
 plt.savefig('gauss.png')
